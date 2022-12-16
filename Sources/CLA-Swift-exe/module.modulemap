@@ -1,0 +1,11 @@
+module MyLibraryCSafe {
+    header "../../CSources/Build/safe-lib.wasm.h"
+    link "CLASwift-safe"
+    export *
+}
+
+module MyLibraryCUnsafe {
+    header "../../CSources/init.h"
+    link "CLASwift-unsafe"
+    export *
+}

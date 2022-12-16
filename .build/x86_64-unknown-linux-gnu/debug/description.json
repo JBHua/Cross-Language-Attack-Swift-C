@@ -1,0 +1,85 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.CLA-Swift-exe-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "importPath" : "/home/yifanhua/Cross-Language-Attack-on-Swift/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/yifanhua/Cross-Language-Attack-on-Swift/Sources/CLA-Swift-exe/MemoryHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/yifanhua/Cross-Language-Attack-on-Swift/Sources/CLA-Swift-exe/main.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "CLA_Swift_exe",
+      "moduleOutputPath" : "/home/yifanhua/Cross-Language-Attack-on-Swift/.build/x86_64-unknown-linux-gnu/debug/CLA_Swift_exe.swiftmodule",
+      "objects" : [
+        "/home/yifanhua/Cross-Language-Attack-on-Swift/.build/x86_64-unknown-linux-gnu/debug/CLA_Swift_exe.build/MemoryHelper.swift.o",
+        "/home/yifanhua/Cross-Language-Attack-on-Swift/.build/x86_64-unknown-linux-gnu/debug/CLA_Swift_exe.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/yifanhua/Cross-Language-Attack-on-Swift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j48",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/home/yifanhua/Cross-Language-Attack-on-Swift/Sources/CLA-Swift-exe/module.modulemap",
+        "-module-cache-path",
+        "/home/yifanhua/Cross-Language-Attack-on-Swift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "CLA_Swift_exe_main",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/yifanhua/Cross-Language-Attack-on-Swift/.build/x86_64-unknown-linux-gnu/debug/CLA_Swift_exe.build/MemoryHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/yifanhua/Cross-Language-Attack-on-Swift/.build/x86_64-unknown-linux-gnu/debug/CLA_Swift_exe.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/yifanhua/Cross-Language-Attack-on-Swift/.build/x86_64-unknown-linux-gnu/debug/CLA_Swift_exe.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/yifanhua/Cross-Language-Attack-on-Swift/Sources/CLA-Swift-exe/MemoryHelper.swift",
+        "/home/yifanhua/Cross-Language-Attack-on-Swift/Sources/CLA-Swift-exe/main.swift"
+      ],
+      "tempsPath" : "/home/yifanhua/Cross-Language-Attack-on-Swift/.build/x86_64-unknown-linux-gnu/debug/CLA_Swift_exe.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

@@ -1,0 +1,7 @@
+version: "Swift version 5.7.1 (swift-5.7.1-RELEASE)"
+options: "2c5c091e99faf772a4574c80eaef8ba06a008936e24a118f293eeee3d3dec3d9"
+build_start_time: [1671156776, 715031147]
+build_end_time: [1671156777, 792688846]
+inputs:
+  "/home/yifanhua/Cross-Language-Attack-on-Swift/Sources/CLA-Swift-exe/MemoryHelper.swift": [1668738557, 926513671]
+  "/home/yifanhua/Cross-Language-Attack-on-Swift/Sources/CLA-Swift-exe/main.swift": [1671155982, 269049882]

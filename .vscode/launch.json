@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug Term-Project",
+            "program": "${workspaceFolder:Cross-Language-Attack-on-Swift}/.build/debug/Term-Project",
+            "args": [],
+            "cwd": "${workspaceFolder:Cross-Language-Attack-on-Swift}",
+            "preLaunchTask": "swift: Build Debug Term-Project"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release Term-Project",
+            "program": "${workspaceFolder:Cross-Language-Attack-on-Swift}/.build/release/Term-Project",
+            "args": [],
+            "cwd": "${workspaceFolder:Cross-Language-Attack-on-Swift}",
+            "preLaunchTask": "swift: Build Release Term-Project"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug CLA-Swift",
+            "program": "${workspaceFolder:Cross-Language-Attack-on-Swift}/.build/debug/CLA-Swift",
+            "args": [],
+            "cwd": "${workspaceFolder:Cross-Language-Attack-on-Swift}",
+            "preLaunchTask": "swift: Build Debug CLA-Swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release CLA-Swift",
+            "program": "${workspaceFolder:Cross-Language-Attack-on-Swift}/.build/release/CLA-Swift",
+            "args": [],
+            "cwd": "${workspaceFolder:Cross-Language-Attack-on-Swift}",
+            "preLaunchTask": "swift: Build Release CLA-Swift"
+        }
+    ]
+}
